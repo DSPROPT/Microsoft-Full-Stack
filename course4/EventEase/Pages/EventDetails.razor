@@ -1,0 +1,29 @@
+@page "/event-details/{eventId:int}"
+@using EventEase.Models
+
+
+<h1>@(eventDetails?.Title ?? "Loading...")</h1>
+
+@if (eventDetails != null)
+{
+    <div>
+        <p>@eventDetails.Name</p>
+        
+    </div>
+}
+else
+{
+    <p>Loading event details...</p>
+}
+
+@code {
+    [Parameter]
+    public int eventId { get; set; }
+
+    private Event eventDetails;
+
+    protected override async Task OnInitializedAsync()
+    {
+        eventDetails = await EventService.GetEventById(eventId);
+    }
+}

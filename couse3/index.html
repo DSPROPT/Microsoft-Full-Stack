@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <header>
+        <button id="hamburger">☰</button>
+        <nav id="nav-menu" class="hidden">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Welcome to my portfolio website. I am a front-end developer with a passion for building beautiful and functional websites.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1>Projects</h1>
+        <div>
+            <button onclick="filterProjects('all')">All</button>
+            <button onclick="filterProjects('web')">Web Development</button>
+            <button onclick="filterProjects('app')">App Development</button>
+        </div>
+
+        <div class="project" data-category="web">
+            <img src="https://img.freepik.com/free-vector/cartoon-web-design-landing-page_52683-70880.jpg" class="lightbox-image" alt="Web Project 1" />
+            <h2>Web Project 1</h2>
+        </div>
+        <div class="project" data-category="app">
+            <img src="https://img.freepik.com/free-psd/template-travel-mobile-app_145275-349.jpg" class="lightbox-image" alt="App Project 1" />
+            <h2>App Project 1</h2>
+        </div>
+        <div class="project" data-category="web">
+            <img src="https://img.freepik.com/psd-gratuitas/modelo-de-design-de-web-de-jogo-de-rugby_23-2149091828.jpg" class="lightbox-image" alt="Web Project 2" />
+            <h2>Web Project 2</h2>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="hidden">
+        <img id="lightbox-img" src="" alt="" />
+    </div>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" />
+            <input type="email" id="email" placeholder="Your Email" />
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+            <p id="form-feedback"></p>
+        </form>
+    </section>
+
+    
+
+     <!-- Link JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- Code Showcase Section -->
+<section id="code-showcase">
+    <h1>Code Showcase</h1>
+    <div>
+        <h2>index.html</h2>
+        <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;link rel="stylesheet" href="styles.css" /&gt;
+    &lt;title&gt;Portfolio&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;!-- Navigation Menu --&gt;
+    &lt;header&gt;
+        &lt;button id="hamburger"&gt;☰&lt;/button&gt;
+        &lt;nav id="nav-menu" class="hidden"&gt;
+            &lt;a href="#about"&gt;About&lt;/a&gt;
+            &lt;a href="#projects"&gt;Projects&lt;/a&gt;
+            &lt;a href="#contact"&gt;Contact&lt;/a&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+
+    &lt;!-- About Section --&gt;
+    &lt;section id="about"&gt;
+        &lt;h1&gt;About Me&lt;/h1&gt;
+        &lt;p&gt;Welcome to my portfolio website. I am a front-end developer with a passion for building beautiful and functional websites.&lt;/p&gt;
+    &lt;/section&gt;
+
+    &lt;!-- Projects Section --&gt;
+    &lt;section id="projects"&gt;
+        &lt;h1&gt;Projects&lt;/h1&gt;
+        &lt;div&gt;
+            &lt;button onclick="filterProjects('all')"&gt;All&lt;/button&gt;
+            &lt;button onclick="filterProjects('web')"&gt;Web Development&lt;/button&gt;
+            &lt;button onclick="filterProjects('app')"&gt;App Development&lt;/button&gt;
+        &lt;/div&gt;
+
+        &lt;div class="project" data-category="web"&gt;
+            &lt;img src="https://img.freepik.com/free-vector/cartoon-web-design-landing-page_52683-70880.jpg" class="lightbox-image" alt="Web Project 1" /&gt;
+            &lt;h2&gt;Web Project 1&lt;/h2&gt;
+        &lt;/div&gt;
+        &lt;div class="project" data-category="app"&gt;
+            &lt;img src="https://img.freepik.com/free-psd/template-travel-mobile-app_145275-349.jpg" class="lightbox-image" alt="App Project 1" /&gt;
+            &lt;h2&gt;App Project 1&lt;/h2&gt;
+        &lt;/div&gt;
+        &lt;div class="project" data-category="web"&gt;
+            &lt;img src="https://img.freepik.com/psd-gratuitas/modelo-de-design-de-web-de-jogo-de-rugby_23-2149091828.jpg" class="lightbox-image" alt="Web Project 2" /&gt;
+            &lt;h2&gt;Web Project 2&lt;/h2&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;!-- Lightbox --&gt;
+    &lt;div id="lightbox" class="hidden"&gt;
+        &lt;img id="lightbox-img" src="" alt="" /&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Contact Form --&gt;
+    &lt;section id="contact"&gt;
+        &lt;h1&gt;Contact Me&lt;/h1&gt;
+        &lt;form id="contact-form"&gt;
+            &lt;input type="text" id="name" placeholder="Your Name" /&gt;
+            &lt;input type="email" id="email" placeholder="Your Email" /&gt;
+            &lt;textarea id="message" placeholder="Your Message"&gt;&lt;/textarea&gt;
+            &lt;button type="submit"&gt;Send&lt;/button&gt;
+            &lt;p id="form-feedback"&gt;&lt;/p&gt;
+        &lt;/form&gt;
+    &lt;/section&gt;
+
+     &lt;!-- Link JavaScript --&gt;
+    &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </code></pre>
+    </div>
+    <div>
+        <h2>styles.css</h2>
+        <pre><code>
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, p {
+    margin: 10px 0;
+}
+
+/* Navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+#hamburger {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+#nav-menu.hidden {
+    display: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Projects Section */
+.project {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+}
+
+.project img {
+    width: 25%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Lightbox */
+#lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#lightbox.hidden {
+    display: none;
+}
+
+/* Form */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#form-feedback {
+    color: red;
+}
+        </code></pre>
+    </div>
+    <div>
+        <h2>script.js</h2>
+        <pre><code>
+// ✅ Toggle Navigation Menu
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('nav-menu');
+
+hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('hidden');
+});
+
+// ✅ Smooth Scrolling
+const links = document.querySelectorAll('nav a');
+
+links.forEach(link => {
+    link.addEventListener('click', event => {
+        event.preventDefault();
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+// ✅ Filter Projects
+function filterProjects(category) {
+    const projects = document.querySelectorAll('.project');
+
+    projects.forEach(project => {
+        if (category === 'all' || project.getAttribute('data-category') === category) {
+            project.style.display = 'block';
+        } else {
+            project.style.display = 'none';
+        }
+    });
+}
+
+// ✅ Lightbox for Images
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+
+document.querySelectorAll('.lightbox-image').forEach(img => {
+    img.addEventListener('click', () => {
+        lightboxImg.src = img.src;
+        lightbox.classList.remove('hidden');
+    });
+});
+
+lightbox.addEventListener('click', () => {
+    lightbox.classList.add('hidden');
+});
+
+// ✅ Form Validation
+const form = document.getElementById('contact-form');
+const feedback = document.getElementById('form-feedback');
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    if (!name || !email || !message) {
+        feedback.textContent = 'Please fill in all fields.';
+        return;
+    }
+
+    if (!validateEmail(email)) {
+        feedback.textContent = 'Please enter a valid email address.';
+        return;
+    }
+
+    feedback.textContent = 'Message sent successfully!';
+    feedback.style.color = 'green';
+
+    // Clear form after submission
+    form.reset();
+});
+
+function validateEmail(email) {
+    const re = /\S+@\S+\.\S+/;
+    return re.test(email);
+        </code></pre>
+    </div>
+</section>

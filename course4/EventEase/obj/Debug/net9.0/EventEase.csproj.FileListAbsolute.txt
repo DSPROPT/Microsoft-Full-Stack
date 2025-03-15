@@ -1,0 +1,7 @@
+/home/juliodev/Documents/Microsoft Full-Stack/course4/EventEase/obj/Debug/net9.0/EventEase.csproj.AssemblyReference.cache
+/home/juliodev/Documents/Microsoft Full-Stack/course4/EventEase/obj/Debug/net9.0/EventEase.GeneratedMSBuildEditorConfig.editorconfig
+/home/juliodev/Documents/Microsoft Full-Stack/course4/EventEase/obj/Debug/net9.0/EventEase.AssemblyInfoInputs.cache
+/home/juliodev/Documents/Microsoft Full-Stack/course4/EventEase/obj/Debug/net9.0/EventEase.AssemblyInfo.cs
+/home/juliodev/Documents/Microsoft Full-Stack/course4/EventEase/obj/Debug/net9.0/EventEase.csproj.CoreCompileInputs.cache
+/home/juliodev/Documents/Microsoft Full-Stack/course4/EventEase/obj/Debug/net9.0/EventEase.MvcApplicationPartsAssemblyInfo.cache
+/home/juliodev/Documents/Microsoft Full-Stack/course4/EventEase/obj/Debug/net9.0/EventEase.sourcelink.json

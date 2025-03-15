@@ -1,0 +1,15 @@
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/bin/Debug/net8.0/MyApp
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/bin/Debug/net8.0/MyApp.deps.json
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/bin/Debug/net8.0/MyApp.runtimeconfig.json
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/bin/Debug/net8.0/MyApp.dll
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/bin/Debug/net8.0/MyApp.pdb
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/obj/Debug/net8.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/obj/Debug/net8.0/MyApp.AssemblyInfoInputs.cache
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/obj/Debug/net8.0/MyApp.AssemblyInfo.cs
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/obj/Debug/net8.0/MyApp.csproj.CoreCompileInputs.cache
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/obj/Debug/net8.0/MyApp.sourcelink.json
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/obj/Debug/net8.0/MyApp.dll
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/obj/Debug/net8.0/refint/MyApp.dll
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/obj/Debug/net8.0/MyApp.pdb
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/obj/Debug/net8.0/MyApp.genruntimeconfig.cache
+/home/juliodev/Documents/Microsoft Full-Stack/MyApp/obj/Debug/net8.0/ref/MyApp.dll
